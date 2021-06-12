@@ -1,7 +1,7 @@
 FROM golang:1-alpine AS build
 
-ARG VERSION="0.20.3"
-ARG CHECKSUM="ebea5734f545f882e485022fd7c315c0fbe1c8ffe6402dbf233e595650c88779"
+ARG VERSION="0.21.0"
+ARG CHECKSUM="0c534e35b7451e28676042bdbefd89788fbaac367d4b4248819954e310fc1b3b"
 
 ADD https://github.com/prometheus/statsd_exporter/archive/v$VERSION.tar.gz /tmp/statsd_exporter.tar.gz
 
