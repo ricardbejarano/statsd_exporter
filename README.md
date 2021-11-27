@@ -9,13 +9,13 @@
 
 Available on Docker Hub as [`docker.io/ricardbejarano/statsd_exporter`](https://hub.docker.com/r/ricardbejarano/statsd_exporter):
 
-- [`0.22.3`, `latest` *(Dockerfile)*](Dockerfile)
+- [`0.22.4`, `latest` *(Dockerfile)*](Dockerfile)
 
 ### RedHat Quay
 
 Available on RedHat Quay as [`quay.io/ricardbejarano/statsd_exporter`](https://quay.io/repository/ricardbejarano/statsd_exporter):
 
-- [`0.22.3`, `latest` *(Dockerfile)*](Dockerfile)
+- [`0.22.4`, `latest` *(Dockerfile)*](Dockerfile)
 
 
 ## Features
