@@ -6,7 +6,7 @@ ARG CHECKSUM="91998b939f42d05ac68465a66359a13c475eae7b78013113f2552f3a7bf07116"
 ADD https://github.com/prometheus/statsd_exporter/archive/v$VERSION.tar.gz /tmp/statsd_exporter.tar.gz
 
 RUN [ "$(sha256sum /tmp/statsd_exporter.tar.gz | awk '{print $1}')" = "$CHECKSUM" ] && \
-    apk add ca-certificates curl make && \
+    apk add bash ca-certificates curl make && \
     tar -C /tmp -xf /tmp/statsd_exporter.tar.gz && \
     mkdir -p /go/src/github.com/prometheus && \
     mv /tmp/statsd_exporter-$VERSION /go/src/github.com/prometheus/statsd_exporter && \
